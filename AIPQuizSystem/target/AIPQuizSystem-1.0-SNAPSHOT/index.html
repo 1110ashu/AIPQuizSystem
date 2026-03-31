@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>AIP Quiz System</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Center container */
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Glass Card */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* Title */
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    display: block;
+    width: 220px;
+    margin: 15px auto;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Button styles */
+.quiz-btn {
+    background: #28a745;
+}
+
+.admin-btn {
+    background: #007bff;
+}
+
+/* Hover effects */
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1> AIP Quiz System</h1>
+        <p>Test your knowledge with dynamic quizzes</p>
+
+        <a href="quiz.jsp" class="btn quiz-btn"> Start Quiz</a>
+        <a href="login.jsp" class="btn admin-btn"> Admin Login</a>
+    </div>
+</div>
+
+<div class="footer">
+     AIP Quiz System | Developed by Ashish Guleria & Dolli
+</div>
+
+</body>
+</html>

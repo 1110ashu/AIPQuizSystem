@@ -1,0 +1,7 @@
+com\mycompany\aipquizsystem\LoginServlet.class
+com\mycompany\aipquizsystem\resources\JakartaEE11Resource.class
+com\mycompany\aipquizsystem\AddQuestionServlet.class
+com\mycompany\aipquizsystem\DeleteQuestionServlet.class
+com\mycompany\aipquizsystem\JakartaRestConfiguration.class
+com\mycompany\aipquizsystem\SubmitQuizServlet.class
+com\mycompany\aipquizsystem\DBConnection.class
